@@ -81,25 +81,25 @@ ffmpeg -version
 ### SANTOSH Name Animation
 ```bash
 # Low quality (fast rendering)
-manim -pql santosh_animation.py SantoshAnimation
+manim -pql main.py SantoshAnimation
 
 # Medium quality
-manim -pqm santosh_animation.py SantoshAnimation
+manim -pqm main.py SantoshAnimation
 
 # High quality (best output)
-manim -pqh santosh_animation.py SantoshAnimation
+manim -pqh main.py SantoshAnimation
 ```
 
 ### Client-Server Architecture Animation
 ```bash
 # Low quality (fast rendering)
-manim -pql client_server_architecture.py ClientServerArchitecture
+manim -pql client-server.py ClientServerArchitecture
 
 # Medium quality
-manim -pqm client_server_architecture.py ClientServerArchitecture
+manim -pqm client-server.py ClientServerArchitecture
 
 # High quality (best output)
-manim -pqh client_server_architecture.py ClientServerArchitecture
+manim -pqh client-server.py ClientServerArchitecture
 ```
 
 ## 📁 Output Files
