@@ -110,7 +110,7 @@ media/videos/[script-name]/[quality]/[ClassName].mp4
 ```
 
 **Examples:**
-- `media/videos/santosh_animation/480p15/SantoshAnimation.mp4`
+- `media/videos/main/480p15/SantoshAnimation.mp4`
 - `media/videos/client_server_architecture/480p15/ClientServerArchitecture.mp4`
 
 ## ⚙️ Command Line Options
@@ -126,13 +126,13 @@ media/videos/[script-name]/[quality]/[ClassName].mp4
 ### Example Commands
 ```bash
 # Render without preview
-manim -ql santosh_animation.py SantoshAnimation
+manim -ql main.py SantoshAnimation
 
 # Render as GIF
-manim -pql --format=gif santosh_animation.py SantoshAnimation
+manim -pql --format=gif main.py SantoshAnimation
 
 # Render last frame as PNG
-manim -s santosh_animation.py SantoshAnimation
+manim -s main.py SantoshAnimation
 ```
 
 ## 🎨 Animation Features
